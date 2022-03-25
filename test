@@ -1,0 +1,7 @@
+echo "# cuddly-barnacle" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Colonel-Mustard111/cuddly-barnacle.git
+git push -u origin main
